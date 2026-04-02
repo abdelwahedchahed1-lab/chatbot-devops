@@ -1,0 +1,17 @@
+cat > templates/index.html << 'EOF'
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot DevOps</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Chatbot DevOps</h1>
+        <div id="chat-box"></div>
+        <input type="text" id="message" placeholder="Écris ton message...">
+        <button onclick="sendMessage()">Envoyer</button>
+    </div>
+</body>
+</html>
